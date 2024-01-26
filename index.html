@@ -10,21 +10,26 @@
     <title>Ordering Web App</title>
 </head>
 <body>
-    <header>
-        <h1>Patrick's Diner </h1>
-        <p>The bes bugers and pizzas in town</p>
-    </header>
-    <div class="container" id="menu">
-        <!-- Menu items -->
-    </div>
-    <div class="order-list" id="list-order">
-        <h1>Your Order</h1>
-        <ul id="orders">
-
-        </ul>
-        <div>
-            <p>Total Price:</p>
+    <div class="containerAll">
+        <header>
+            <img src="./imgs/bg img.png" alt="">
+        </header>
+        <div class="container" id="menu">
+            <!-- Menu items -->
         </div>
+        <div class="order-list hidden" id="list-order">
+            <h1>Your Order</h1>
+            <div class="orders" id="orders">
+                
+            </div>
+            <div class="total-container">
+                <p>Total Price:</p>
+            </div>
+        </div>
+    </div>
+    <div class="header-title">
+        <h1>Patrick's Diner </h1>
+        <p>The best bugers and pizzas in town</p>
     </div>
     <script src="./index.js" type="module"></script>
 </body>
