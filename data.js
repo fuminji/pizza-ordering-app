@@ -5,9 +5,10 @@ export const menuArray = [
         name: "Pizza",
         ingredients: ["pepperoni", "mushrom", "mozarella"],
         img: `imgs/pizza.png`,
-        uuid: uuidv4(),
+        id: 0,
         price: 14,
-        emoji: "🍕"
+        emoji: "🍕",
+        quantity: 0
     },
     {
         name: "Hamburger",
@@ -15,7 +16,8 @@ export const menuArray = [
         img: `imgs/burger.png`,
         price: 12,
         emoji: "🍔",
-        uuid: uuidv4()
+        id: 1,
+        quantity: 0
     },
         {
         name: "Beer",
@@ -23,7 +25,8 @@ export const menuArray = [
         img: `imgs/beer.png`,
         price: 12,
         emoji: "🍺",
-        uuid: uuidv4()
+        id: 2,
+        quantity: 0
     }
 ]
 
