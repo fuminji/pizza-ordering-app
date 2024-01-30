@@ -121,3 +121,44 @@ header {
     font-size: 16px;
     text-align: center;
 }
+
+.form {
+    display: none;
+    height: 460px;
+    width: 460px;
+    box-shadow: 40px 757575;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(5.187px 5.187px 255.437px rgba(0, 0, 0, 0.50));
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 18px;
+    width: 320px;
+    margin: 10px;
+}
+
+form button {
+    width: 360px;
+    padding: 10px;
+    border: none;
+    background: #16DB99;
+    color: white;
+    cursor: pointer;
+    margin-top: 36px;
+    font-size: 16px;
+    text-align: center;
+}
+
+form h3 {
+    margin: 40px;
+}
